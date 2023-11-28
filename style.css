@@ -7,10 +7,21 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url(148421.jpg);
+	background-image: url(shahadat-rahman-voM1Z9cGPCU-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 }
+
+  .card a {
+	color: #e83030; /* Red color for the links */
+	
+  }
+
+  .card svg {
+	fill: #e83030; /* Red color for the SVG icons */
+	
+  }
+
 nav{
 	display: flex;
 	align-items: center;
@@ -44,7 +55,7 @@ nav ul li a:hover{
 	transition: .4s;
 }
 .btn{
-	background-color: #f9004d;
+	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -61,31 +72,26 @@ nav ul li a:hover{
 	top: 50%;
 	left:8%;
 	transform: translateY(-50%);
+	text-shadow: 2px 2px #121212;
 }
 h1{
 	color: white;
 	margin: 20px 0px 20px;
 	font-size: 75px;
+	text-shadow: 2px 2px #2a2828;
 }
 h3{
-	color: rgb(242, 231, 231);
+	color: white;
 	font-size: 25px;
 	margin-bottom: 50px;
+	text-shadow: 2px 2px #151414;
 }
 h4{
 	color: #fcfc;
 	letter-spacing: 2px;
 	font-size: 20px;
+	text-shadow: 2px 2px #141313;
 }
-
-.fcf-body {
-    font-family: -apple-system, Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #0808ff;
-    text-align: left;
-}
-
 .newslatter form{
 	width: 380px;
 	max-width: 100%;
@@ -153,9 +159,10 @@ h4{
 	font-size: 18px;
 	margin-bottom: 45px;
 }
+
 button{
-	background-color:#f9004d;
-	color: white;
+	background-color:#f0edee;
+	color: rgb(73, 70, 70);
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
@@ -181,6 +188,7 @@ button:hover{
 	margin: 30px auto;
 	text-align: center;
 }
+
 .box{
 	display: flex;
 	justify-content: center;
@@ -232,7 +240,7 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
-.certificate-me{
+.contact-me{
 	width: 100%;
 	height: 290px;
 	background: #191919;
@@ -241,13 +249,13 @@ h5{
 	flex-direction: column;
 	justify-content: center;
 }
-.certificate-me p{
+.contact-me p{
 	color: white;
 	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 25px;
 }
-.certificate-me .button-two{
+.contact-me .button-two{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -257,7 +265,7 @@ h5{
 	border-radius: 30px;
 	transition: .4s; 
 }
-.certificate-me .button-two:hover{
+.contact-me .button-two:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
@@ -285,6 +293,12 @@ footer p:nth-child(2){
 	text-align: center;
 	line-height: 26px;
 }
+.main{
+	
+	
+	
+}
+
 .social{
 	display: flex;
 }

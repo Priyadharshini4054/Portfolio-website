@@ -1,12 +1,117 @@
-<link rel="stylesheet" type="text/css" href="style.css">
-<center>
 
-  <H1><p class="head">COURSES CERTIFICATIONS</p></H1></br></br>
-    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>COURSES CERTIFICATIONS</title>
+<style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
 
-<center> <button type="button"><H2><li><a href="certfi1.jpeg">THE COMPLETE 2022 WEB DEVELOPMENT BOOTCAMP</a></li></H2></center></button></br>
-      <center><button type="button"><H2><li><a href="CERTIFI6.jpeg">HTML5</a></li></H2></center></button></br>
-      <center><button type="button"> <H2><li><a href="certifi3.jpeg">CSS COURSE</a></li></H2></center></button></br>
-    <center><button type="button"><H2><li><a href="certfi2.jpeg">PYTHON PROJECTS</a></li></H2></center></button></br>
-      <center><button type="button"><H2><LI><a href="certifi4.jpeg" >PITCH DECK PREPARATION</a></LI></H2></center></button></br>
-</center>
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+.head {
+    color: #333;
+}
+
+button {
+    background-color: rgb(71, 79, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+/* Background Animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 0% 50%;
+    }
+    75% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+body {
+    animation: gradient 8s linear infinite;
+    background: linear-gradient(45deg, #6ee7b7, #277ecd, #ff7e5f, #4CAF50, #9b59b6);
+    background-size: 500% 500%;
+}
+
+</style>  
+
+</head>
+<body>
+    <div class="center">
+        <h1 class="head">COURSES CERTIFICATIONS</h1>
+        
+        <button type="button">
+            <h2><li><a href="certfi1.jpeg">THE COMPLETE 2022 WEB DEVELOPMENT BOOTCAMP</a></li></h2>
+        </button><br>
+        
+        <button type="button">
+            <h2><li><a href="CERTIFI6.jpeg">HTML5</a></li></h2>
+        </button><br>
+        
+        <button type="button">
+            <h2><li><a href="certifi3.jpeg">CSS COURSE</a></li></h2>
+        </button><br>
+        
+        <button type="button">
+            <h2><li><a href="certfi2.jpeg">PYTHON PROJECTS</a></li></h2>
+        </button><br>
+        
+        <button type="button">
+            <h2><li><a href="certifi4.jpeg">PITCH DECK PREPARATION</a></li></h2>
+        </button><br>
+    </div>
+</body>
+</html>
