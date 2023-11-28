@@ -1,51 +1,110 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-.container {
-  width: 100%;
-  background-color: #ddd;
-}
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #282c35;
+      color: #fff;
+      text-align: center;
+    }
 
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
+    h1 {
+      padding-top: 20px;
+    }
 
-.html {width: 90%; background-color: #bee816;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #fb2aca;}
-.Python {width: 60%; background-color: #808080;}
-</style>
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .skills {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .html {
+      width: 98%;
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    }
+
+    .css {
+      width: 90%;
+      background: linear-gradient(90deg, #72ccdf, #a4d3e1);
+    }
+
+    .js {
+      width: 90%;
+      background: linear-gradient(90deg, #fd8e78, #a3de83);
+    }
+
+    .Java {
+      width: 98%;
+      background: linear-gradient(90deg, #f09819, #e3a685);
+    }
+
+    .My-Sql {
+      width: 99%;
+      background: linear-gradient(90deg, #84d725, #4CAF50);
+    }
+
+    /* Animation */
+    .skills {
+      animation: fillWidth 2s ease-in-out;
+    }
+
+    @keyframes fillWidth {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>My Skills</h1>
+  <h1>My Skills</h1>
 
-<p>HTML</p>
-<div class="container">
-  <div class="skills html">90%</div>
-</div>
+  <p>HTML</p>
+  <div class="container">
+    <div class="skills html">99%</div>
+  </div>
 
-<p>CSS</p>
-<div class="container">
-  <div class="skills css">80%</div>
-</div>
+  <p>CSS</p>
+  <div class="container">
+    <div class="skills css">97%</div>
+  </div>
 
-<p>JavaScript</p>
-<div class="container">
-  <div class="skills js">65%</div>
-</div>
+  <p>JavaScript</p>
+  <div class="container">
+    <div class="skills js">90%</div>
+  </div>
 
-<p>Python</p>
-<div class="container">
-  <div class="skills Python">60%</div>
-</div>
+  <p>Java</p>
+  <div class="container">
+    <div class="skills Java">95%</div>
+  </div>
+
+  <p>My-Sql</p>
+  <div class="container">
+    <div class="skills My-Sql">95%</div>
+  </div>
 
 </body>
+
 </html>
